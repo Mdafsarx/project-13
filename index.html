@@ -3,14 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Random Game</title>
+    <link rel="shortcut icon" href="icons8-game-50.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="">
     
 
+<main>
 
+    <!-- lavel 1 -->
+    <section>
+
+        <div class="flex justify-center items-center min-h-screen">
+
+            <div class="flex flex-col justify-center items-center">
+<!-- display -->
+<div class="mb-10 w-[270px]  h-14 bg-slate-500 rounded-xl" id="displayColor">
+    <h1 class="text-xl font-bold text-white" id="display"></h1>
+</div>
+                <div class="flex flex-col justify-center items-center">
+                    <h4 class="font-bold bg-orange-400 px-1 rounded-lg text-white">Guess the number between 0 to 10</h4>
+                    <input type="text" class="bg-sky-300 pr-[83px] pl-2 my-1 rounded-xl"  placeholder="1-10" id="input">
+                </div>
+                <div class="flex justify-center">
+                    <button class= "btn bg-red-500 py-1 px-[112px] text-white rounded-xl" onclick="submit()">submit</button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+</main>
 
 
 
